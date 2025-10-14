@@ -1,7 +1,7 @@
-name: Run create_project.py
+name: Run create_project.py in 01_automateFolderStructure
 
 on:
-  workflow_dispatch:  # Allows manual trigger from GitHub UI
+  workflow_dispatch:
 
 jobs:
   run-script:
@@ -20,4 +20,5 @@ jobs:
         run: pip install pyyaml
 
       - name: Run create_project.py
+        working-directory: 01_automateFolderStructure
         run: python create_project.py
