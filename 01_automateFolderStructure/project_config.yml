@@ -1,0 +1,12 @@
+project_name: MyProject
+folders:
+  - cores
+  - docs
+  - scripts
+  - source/app
+  - source/bsp
+  - source/configs
+  - tests
+  - vendors
+files:
+  - CMakeLists.txt
