@@ -1,8 +1,14 @@
 project_name: MyProject
 folders:
-  - cores
+  - .github
+  - board/linker
+  - board/startup
+  - board/system
   - docs
-  - scripts
+  - project
+  - scripts/build
+  - scripts/cfg
+  - scripts/cmake
   - source/app
   - source/bsp
   - source/configs
@@ -10,3 +16,5 @@ folders:
   - vendors
 files:
   - CMakeLists.txt
+  - CMakePresets.json
+  - README.md
